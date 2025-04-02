@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias do dia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            color: #362e2e;
+            padding: 20px;
+            background-color: #f5f3f3;
+        }
+        p{
+            color: rgb(114, 23, 23);
+        }
+        
+        h1 {
+            color: #2467aa;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+        
+        .noticia {
+            display: flex;
+            flex-direction: column;
+             align-items: center;
+            background-color: rgb(166, 172, 175);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 30px;
+            width: 50%;
+            cursor: pointer;
+        }
+        
+        .noticia h3 {
+            color: #000000;
+            margin-top: 0;
+        }
+        
+        .noticia img {
+            display: flex;
+             flex-direction: column;
+             align-items: center;
+              gap: 20px;
+               width: 25%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #9c3333;
+        }
+        
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        tr:hover {
+            background-color: #102f3d;
+        }
+        tr{
+            cursor: pointer;
+            background-color: #e0e0e0;
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            margin: 30px 0;
+        }
+        
+        .destaque {
+            font-weight: bold;
+            color: #f1240e;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Notícias do Dia</h1>
+    
+    <div class="noticia">
+        <h3>Putin dá início à maior convocação militar da Rússia em mais de uma década
+        </h3>
+            <img src="russos.jpg" alt="Russos se preparando pra guerra">
+        <p>Putin ficou muito irritado após o lula dizer que come ovo de ema pois tem mais proteína.
+        </p>
+    </div>
+    
+    <div class="noticia">
+        <h3>Nova atualização incrível do Chat LGPT deixa os internautas incrédulos!
+        </h3>
+        <img src="chatlgbt.png" alt="Chat Lgbt">
+        <p>Agora a IA é capaz de criar e transformar imagens muito mais precisas do que sua versão anterior, os designers gráficos estão se tremendo!</p>
+    </div>
+    
+    <div class="noticia">
+        <h3>Cristiano Ronaldo perde tudo no tigrinho e está morando de aluguel</h3>
+        <img src="cr72.webp" alt="Cr7 antes da fama">
+        <p>Após CR7 ficar com inveja do neymar divulgando casas de apostas e faturando milhões, ele resolveu dar tudo de si em uma única all-in, e acabou perdendo tudo!</p>
+    </div>
+    
+    <hr>
+    
+    <h2>Principais Manchetes</h2>
+    
+    <table>
+        <tr>
+            <th>Manchetes</th>
+            <th>Categoria</th>
+            <th>Data</th>
+        </tr>
+        <tr>
+            <td class="destaque">Governo Trump manipula criptomoedas para enriquecer o EUA</td>
+            <td>Política</td>
+            <td>29/03/2025</td>
+        </tr>
+        <tr>
+            <td class="destaque">Lionel Messi se descobriu o melhor jogador de sinuca</td>
+            <td>Famosos</td>
+            <td>28/03/2025</td>
+        </tr>
+        <tr>
+            <td class="destaque">Morcegos foram descobertos com diabetes</td>
+            <td>Eventos</td>
+            <td>27/03/2025</td>
+        </tr>
+    </table>
+</body>
+</html>
